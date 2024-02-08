@@ -1,25 +1,28 @@
-body {
-    display: flex;
-    justify-content: center;
-  }
+* {
+    border: 1px solid red;
+}
 
-  a {
-    color: inherit;
+a {
     text-decoration: none;
-  }
-  
-  a:hover {
+    color: inherit;
+}
+
+a:hover {
     text-decoration: underline;
   }
 
-  .cv {
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.cv {
     background-color: var(--primary-color);
     width: 1160px;
-  
+    
     overflow: hidden;
-  }
+}
 
-  /* Header */
 .cvhead {
     color: #fff;
     display: flex;
@@ -27,31 +30,30 @@ body {
     align-items: center;
   }
 
-  .cvhead__infome {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  
-    margin: 40px;
-    margin-left: 130px;
-  }
+.cvhead__infome {
+display: flex;
+flex-direction: column;
+align-items: center;
 
-  .cvhead__infome figure {
-    width: 100px;
+margin: 40px;
+margin-left: 100px;
+}
+.cvhead__infome figure {
     margin: 20px;
-  }
-  
-  .cvhead__infome img {
-    width: 100%;
-    border-radius: 50%;
-    box-shadow: 0 0 30px #000;
-  } 
+    width: 130px;
+}
 
-  .cvhead__infome figure a:hover {
+.cvhead__infome img {
+    border-radius: 50%;
+    box-shadow: 0 0 30px black;
+    width: 100%;
+}
+
+.cvhead__infome figure a:hover {
     cursor: zoom-in;
   }
 
-  .cvhead__name {
+.cvhead__name {
     font-size: 2rem;
     letter-spacing: 2px;
     margin-bottom: 10px;
@@ -62,8 +64,7 @@ body {
     font-weight: bold;
   }
 
-  /* Contact dimension + alignement */
-.cv__head__contact {
+  .cvhead__contact {
     width: 100%;
     padding: 20px 30px;
     display: flex;
@@ -71,5 +72,37 @@ body {
     justify-content: space-between;
   
     background-color: var(--tertiary-color);
+  }
+
+  .asidemain {
+    display: flex;
+  }
+
+  .aside__title {
+    background-color: var(--secondary-color);
+    font-family: Lato;
+    color: black;
+    padding-left: 20px;
+  }
+
+  .aside {
+    max-width: 30%;
+    flex-direction: column;
+    padding: 20px 40px 0 0;
+    text-align: justify;
+  }
+
+  .aside:first-child p {
+    text-indent: 30px;
+  }
+
+  .aside ul {
+    padding-left: 30px;
+  }
+
+  .aside p,
+  .aside ul {
+    padding: 20px 20px;
+    padding-left: 20px;
   }
 
