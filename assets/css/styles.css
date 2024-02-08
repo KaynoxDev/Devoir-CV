@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400;1,700&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway/Raleway-Regular.woff),
+    url(../fonts/Raleway/Raleway-Regular.ttf) format("truetype"),
+    url(../fonts/Raleway/Raleway-Regular.otf) format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway/Raleway-Bold.woff) format("woff"),
+    url(../fonts/Raleway/Raleway-Bold.ttf) format("truetype"),
+    url(../fonts/Raleway/Raleway-Bold.otf) format("opentype");
+    font-weight: bold;
+    font-style: normal;
+    
+}
+@font-face {
+    font-family: "Raleway";
+    src: url(../fonts/Raleway/Raleway-italic.woff),
+    url(../fonts/Raleway/Raleway-italic.ttf) format("truetype"),
+    url(../fonts/Raleway/Raleway-italic.otf) format("opentype");
+    font-weight: normal;
+    font-style: italic;
+}
+
+:root {
+    --primary-color: #782221;
+    --secondary-color: #dbc2a4;
+    --tertiary-color: #2c1d27;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  
+    font-family: "Raleway", sans-serif;
+  }
