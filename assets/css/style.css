@@ -75,7 +75,7 @@ margin-left: 100px;
     background-color: var(--tertiary-color);
   }
 
-  .asidemain {
+  .aside__main {
     display: flex;
   }
 
