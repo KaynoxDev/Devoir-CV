@@ -1,25 +1,26 @@
-body {
-    display: flex;
-    justify-content: center;
-  }
 
-  a {
-    color: inherit;
+
+a {
     text-decoration: none;
-  }
-  
-  a:hover {
+    color: inherit;
+}
+
+a:hover {
     text-decoration: underline;
   }
 
-  .cv {
-    background-color: var(--primary-color);
-    width: 1160px;
-  
-    overflow: hidden;
-  }
+body {
+    display: flex;
+    justify-content: center;
+    
+}
 
-  /* Header */
+.cv {
+    background-color: var(--primary-color);
+    width: 72.5rem;
+    overflow: hidden;
+}
+
 .cvhead {
     color: #fff;
     display: flex;
@@ -27,49 +28,172 @@ body {
     align-items: center;
   }
 
-  .cvhead__infome {
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-  
-    margin: 40px;
-    margin-left: 130px;
-  }
+/** CSS HEADER **/
 
-  .cvhead__infome figure {
-    width: 100px;
-    margin: 20px;
-  }
-  
-  .cvhead__infome img {
-    width: 100%;
+.cvhead__infome {
+display: flex;
+flex-direction: column;
+align-items: center;
+
+margin: 2.5rem;
+margin-left: 6.25rem;
+}
+.cvhead__infome figure {
+    margin: 1.25rem;
+    width: 8.125rem;
+}
+
+.cvhead__infome img {
     border-radius: 50%;
-    box-shadow: 0 0 30px #000;
-  } 
+    box-shadow: 0 0 30px black;
+    width: 100%;
+}
 
-  .cvhead__infome figure a:hover {
+.cvhead__infome figure a:hover {
     cursor: zoom-in;
   }
 
-  .cvhead__name {
+.cvhead__name {
     font-size: 2rem;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
+    letter-spacing: 0.125rem;
+    margin-bottom: 0.625rem;
+    text-transform: uppercase;
   }
 
-  .cvhead__job  {
+  .cvhead_jobs  {
     font-size: 1.1rem;
     font-weight: bold;
   }
 
-  /* Contact dimension + alignement */
-.cv__head__contact {
+  .cvhead__contact {
     width: 100%;
-    padding: 20px 30px;
+    padding: 1.25rem 1.875rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-  
+    line-height: 0.625;
     background-color: var(--tertiary-color);
   }
+
+  /** CSS ASIDE **/
+
+  .aside__main {
+    display: flex;
+  }
+
+  .aside__title {
+    background-color: var(--secondary-color);
+    font-family: Lato;
+    color: black;
+    padding-left: 1.25rem;
+    font-size: 1.25rem;
+  }
+
+  .aside {
+    max-width: 30%;
+    flex-direction: column;
+    padding: 1.25rem 2.5rem 0 0;
+    text-align: justify;
+  }
+
+  .aside:first-child p {
+    text-indent: 1.875rem;
+  }
+
+  .aside p{
+    color: white;
+    padding: 1.25rem 1.25rem;
+    padding-left: 1.25rem;
+  }
+
+  .aside ul {
+    color: white;
+    padding: 1.25rem 1.25rem;
+    padding-left: 2.188rem;
+  }
+
+/** CSS CORPS **/
+
+.body__content{
+    margin: 1.25rem;
+    color: black;
+  }
+
+
+  .body__title{
+    background-color: var(--secondary-color);
+    font-family: Lato;
+    color: black;
+    padding-left: 0.625rem;
+    font-size: 1.25rem;
+    font-weight: bold;
+    
+  }
+
+  .body__title:hover{
+    border-left: 0.625rem solid var(--primary-color);
+  }
+
+  .body__content p, .body__content h3{
+    padding-left: 0.063rem;
+  }
+
+  .body__content p {
+    line-height: 0.313rem;
+  }
+
+  .cvbody {
+    width: 100%;
+    background-color: white;
+    align-content: start;
+    border-right: 0.125rem solid black;
+  }
+
+  .cvbody p {
+    padding: 1.25rem 1.25rem;
+    padding-left: 0.063rem;
+  }
+
+  .cvbody ul {
+    padding-left: 2.5rem;
+  }
+
+  /** CSS FOOTER **/
+
+.footermain {
+    display: flex;
+    justify-content: center;
+    margin: 1.25rem;
+}
+
+.footer__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+
+.footer__link {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    padding: -5px;
+    margin-bottom: 0.625rem;
+    
+}
+
+.footer__link img {
+    height: 2rem;
+    width: 2rem;
+}
+
+
+.footer__link a:hover{
+    opacity: 80%;
+}
+
+.footer__body p {
+    margin: 1.25rem;
+}
 
