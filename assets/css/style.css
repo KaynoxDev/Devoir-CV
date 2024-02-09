@@ -17,7 +17,7 @@ body {
 
 .cv {
     background-color: var(--primary-color);
-    width: 1160px;
+    width: 72.5rem;
     overflow: hidden;
 }
 
@@ -28,19 +28,19 @@ body {
     align-items: center;
   }
 
-
+/** CSS HEADER **/
 
 .cvhead__infome {
 display: flex;
 flex-direction: column;
 align-items: center;
 
-margin: 40px;
-margin-left: 100px;
+margin: 2.5rem;
+margin-left: 6.25rem;
 }
 .cvhead__infome figure {
-    margin: 20px;
-    width: 130px;
+    margin: 1.25rem;
+    width: 8.125rem;
 }
 
 .cvhead__infome img {
@@ -55,8 +55,8 @@ margin-left: 100px;
 
 .cvhead__name {
     font-size: 2rem;
-    letter-spacing: 2px;
-    margin-bottom: 10px;
+    letter-spacing: 0.125rem;
+    margin-bottom: 0.625rem;
     text-transform: uppercase;
   }
 
@@ -67,13 +67,15 @@ margin-left: 100px;
 
   .cvhead__contact {
     width: 100%;
-    padding: 20px 30px;
+    padding: 1.25rem 1.875rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    line-height: 10px;
+    line-height: 0.625;
     background-color: var(--tertiary-color);
   }
+
+  /** CSS ASIDE **/
 
   .aside__main {
     display: flex;
@@ -83,34 +85,37 @@ margin-left: 100px;
     background-color: var(--secondary-color);
     font-family: Lato;
     color: black;
-    padding-left: 20px;
-    font-size: 20px;
+    padding-left: 1.25rem;
+    font-size: 1.25rem;
   }
 
   .aside {
     max-width: 30%;
     flex-direction: column;
-    padding: 20px 40px 0 0;
+    padding: 1.25rem 2.5rem 0 0;
     text-align: justify;
   }
 
   .aside:first-child p {
-    text-indent: 30px;
+    text-indent: 1.875rem;
   }
 
   .aside p{
     color: white;
-    padding: 20px 20px;
-    padding-left: 20px;
+    padding: 1.25rem 1.25rem;
+    padding-left: 1.25rem;
   }
 
   .aside ul {
     color: white;
-    padding: 20px 20px;
-    padding-left: 35px;
+    padding: 1.25rem 1.25rem;
+    padding-left: 2.188rem;
   }
+
+/** CSS CORPS **/
+
 .body__content{
-    margin: 20px;
+    margin: 1.25rem;
     color: black;
   }
 
@@ -119,44 +124,46 @@ margin-left: 100px;
     background-color: var(--secondary-color);
     font-family: Lato;
     color: black;
-    padding-left: 10px;
-    font-size: 20px;
+    padding-left: 0.625rem;
+    font-size: 1.25rem;
     font-weight: bold;
     
   }
 
   .body__title:hover{
-    border-left: 10px solid var(--primary-color);
+    border-left: 0.625rem solid var(--primary-color);
   }
 
   .body__content p, .body__content h3{
-    padding-left: 1px;
+    padding-left: 0.063rem;
   }
 
   .body__content p {
-    line-height: 5px;
+    line-height: 0.313rem;
   }
 
   .cvbody {
     width: 100%;
     background-color: white;
     align-content: start;
-    border-right: 2px solid black;
+    border-right: 0.125rem solid black;
   }
 
   .cvbody p {
-    padding: 20px 20px;
-    padding-left: 1px;
+    padding: 1.25rem 1.25rem;
+    padding-left: 0.063rem;
   }
 
   .cvbody ul {
-    padding-left: 40px;
+    padding-left: 2.5rem;
   }
+
+  /** CSS FOOTER **/
 
 .footermain {
     display: flex;
     justify-content: center;
-    margin: 20px;
+    margin: 1.25rem;
 }
 
 .footer__body {
@@ -172,13 +179,13 @@ margin-left: 100px;
     width: 50%;
     justify-content: space-evenly;
     padding: -5px;
-    margin-bottom: 10px;
+    margin-bottom: 0.625rem;
     
 }
 
 .footer__link img {
-    height: 32px;
-    width: 32px;
+    height: 2rem;
+    width: 2rem;
 }
 
 
@@ -187,6 +194,6 @@ margin-left: 100px;
 }
 
 .footer__body p {
-    margin: 20px;
+    margin: 1.25rem;
 }
 
