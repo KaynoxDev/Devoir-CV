@@ -99,11 +99,13 @@ margin-left: 100px;
   }
 
   .aside p{
+    color: white;
     padding: 20px 20px;
     padding-left: 20px;
   }
 
   .aside ul {
+    color: white;
     padding: 20px 20px;
     padding-left: 35px;
   }
@@ -150,4 +152,41 @@ margin-left: 100px;
   .cvbody ul {
     padding-left: 40px;
   }
+
+.footermain {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+}
+
+.footer__body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    
+}
+
+.footer__link {
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    padding: -5px;
+    margin-bottom: 10px;
+    
+}
+
+.footer__link img {
+    height: 32px;
+    width: 32px;
+}
+
+
+.footer__link a:hover{
+    opacity: 80%;
+}
+
+.footer__body p {
+    margin: 20px;
+}
 
